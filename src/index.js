@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 import Clock from './Clock';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Clock date={new Date()} />, document.getElementById('root'));
+ReactDOM.render(<Clock />, document.getElementById('root'));
 registerServiceWorker();
