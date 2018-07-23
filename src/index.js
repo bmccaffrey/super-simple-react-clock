@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import tick from './Clock';
+import Clock from './Clock';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(tick(), document.getElementById('root'));
+ReactDOM.render(<Clock date={new Date()} />, document.getElementById('root'));
 registerServiceWorker();
