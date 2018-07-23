@@ -19,3 +19,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Other
+App.css
+App.js
+App.test.js
+Comment.js
+Welcome.js
+index.css
+logo.svg
